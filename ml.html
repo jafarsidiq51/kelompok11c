@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Legend</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <div class="container">
+                <h1>E-TopUp</h1>
+                <div class="navbar">
+                    <ul>
+                        <li>Tentang</li>
+                        <li>List Game</li>
+                        <li>Daftar</li>
+                        <li>Log In</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="topup">
+            <div class="cards">
+                <div class="card">
+                    <h1>1. Masukan User ID</h1>
+                    <form>
+                        <input type="text" placeholder="Masukan User ID" onkeypress="return hanyaAngka(event)">
+                        <input type="text" placeholder="( Zone ID )" onkeypress="return hanyaAngka(event)">
+                    </form>
+                </div>              
+            </div>
+
+            <div class="cards">
+                <div class="card2">
+                    <h1>2. Pilih nominal Top Up</h1>
+                    <div class="btn-wrapper">
+                        <a href="#" class="btn-dm diamond">3 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">5 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">11 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">17 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">25 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">40 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">53 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">77 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">154 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">217 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">256 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">367 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">503 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">774 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">1708 Diamonds</a>
+                        <a href="#" class="btn-dm diamond">4003 Diamonds</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="card3">
+                    <h1>3. Pilih Metode Pembayaran</h1>
+                    <div class="btn-wrapper">
+                        <a href="#" class="btn-bayar"><img src="img/gopay1.png" alt=""></a>
+                        <a href="#" class="btn-bayar"><img src="img/ovo.png" alt=""></a>
+                        <a href="#" class="btn-bayar"><img src="img/shopee.png" alt=""></a>
+                        <a href="#" class="btn-cuan harga text"><h4>Beli</h4></a>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script>
+    function hanyaAngka(event) {
+        var angka = (event.which) ? event.which : event.keyCode
+        if (angka != 46 && angka > 31 && (angka < 48 || angka > 57))
+            return false;
+        return true;
+    }
+</script>
+</html>
