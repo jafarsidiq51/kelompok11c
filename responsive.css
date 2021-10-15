@@ -93,6 +93,10 @@
   .heading2 h1 {
     padding-right: 10px;
   }
+  
+  .btn-cuan {
+    width: 50px;
+  }
 
   .promosi {
     grid-template-columns: auto;
