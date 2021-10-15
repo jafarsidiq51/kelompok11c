@@ -74,16 +74,20 @@
 
   .heading {
     height: 165rem;
-    padding-left: 60px;
+    padding-left: 15px;
+  }
+
+  .heading h2 {
+    padding-left: 65px;
   }
 
   .games {
     display: grid;
-    grid-template-columns: repeat(1, auto);
+    grid-template-columns: repeat(2, auto);
   }
 
   .game-icon {
-    width: 100%;
+    width: 200px;
   }
 
   .game-icon h4 {
@@ -92,10 +96,6 @@
 
   .heading2 h1 {
     padding-right: 10px;
-  }
-  
-  .btn-cuan {
-    width: 50px;
   }
 
   .promosi {
