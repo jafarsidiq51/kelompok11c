@@ -23,7 +23,7 @@
 }
 
 /* Untuk Smartphone */
-@media all and (max-width: 670px) {
+@media all and (max-width: 576px) {
   .navbar ul {
     display: none;
   }
