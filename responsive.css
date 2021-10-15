@@ -104,6 +104,7 @@
 
   .card {
     width: 50%;
+    float: left;
   }
 
   .card h3 {
