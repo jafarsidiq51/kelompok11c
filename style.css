@@ -295,6 +295,7 @@ footer {
   font-size: 18px;
   padding-left: 10px;
   padding-top: 10px;
+  text-align: center;
 }
 
 .card span {
@@ -328,6 +329,7 @@ footer {
 .card p {
   font-size: 18px;
   padding-left: 10px;
+  text-align: center;
 }
 
 .kebijakan ul {
