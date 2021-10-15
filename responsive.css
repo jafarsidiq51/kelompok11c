@@ -1,5 +1,5 @@
 /* Untuk Tablet */
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .content2 h1 {
     font-size: 32px;
   }
