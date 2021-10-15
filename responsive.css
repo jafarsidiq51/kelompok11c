@@ -32,6 +32,38 @@
     font-size: 25px;
   }
 
+  .animasi1 {
+    position: relative;
+    animation-name: animasi1;
+    animation-duration: 3s;
+    animation-delay: 2s;
+  }
+
+  @keyframes animasi1 {
+    from {
+      right: 0px;
+    }
+    to {
+      right: 30px;
+    }
+  }
+
+  .animasi2 {
+    position: relative;
+    animation-name: animasi2;
+    animation-duration: 3s;
+    animation-delay: 2s;
+  }
+
+  @keyframes animasi2 {
+    from {
+      left: 0px;
+    }
+    to {
+      left: 30px;
+    }
+  }
+
   .logo span {
     display: inline-block;
     cursor: pointer;
@@ -113,6 +145,7 @@
     margin-top: 15px;
     width: 200px;
   }
+
   .card h3 {
     text-align: center;
   }
