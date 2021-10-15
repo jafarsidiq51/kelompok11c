@@ -70,24 +70,21 @@
   .heading h2,
   h3 {
     font-size: 20px;
+    text-align: center;
   }
 
   .heading {
     height: 165rem;
-    padding-left: 15px;
-  }
-
-  .heading h2 {
     padding-left: 65px;
   }
 
   .games {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
   }
 
   .game-icon {
-    width: 200px;
+    width: 100%;
   }
 
   .game-icon h4 {
