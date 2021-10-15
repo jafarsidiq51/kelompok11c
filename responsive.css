@@ -1,0 +1,120 @@
+/* Untuk Tablet */
+@media screen and (max-width: 1000px) {
+  .content2 h1 {
+    font-size: 32px;
+  }
+
+  .games {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 0;
+    padding: 0;
+  }
+
+  .heading {
+    height: 63rem;
+  }
+
+  .promosi {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .navbar ul {
+    display: none;
+  }
+
+  .logo h1 {
+    font-size: 25px;
+  }
+
+  .logo span {
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-size: 25px;
+    float: right;
+    padding: 30px;
+  }
+
+  .content2 {
+    height: 800px;
+  }
+
+  .content2 h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .content2 p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .btn-wrapper a {
+    width: 70%;
+    margin: 10px;
+  }
+
+  .btn-wrapper p {
+    text-align: center;
+  }
+
+  .heading h2,
+  h3 {
+    font-size: 20px;
+  }
+
+  .heading {
+    height: 85rem;
+  }
+
+  .games {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .game-icon {
+    width: 200px;
+  }
+
+  .promosi {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+
+  footer {
+    height: 350px;
+  }
+
+  .card {
+    width: 50%;
+  }
+
+  .card h3 {
+    text-align: center;
+  }
+
+  .card span {
+    padding-left: 50px;
+  }
+
+  .card p {
+    text-align: center;
+  }
+
+  .card .tlp {
+    padding-left: 160px;
+  }
+
+  .kebijakan ul {
+    padding-bottom: 50px;
+  }
+}
