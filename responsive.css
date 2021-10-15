@@ -73,16 +73,20 @@
   }
 
   .heading {
-    height: 85rem;
+    height: 165rem;
   }
 
   .games {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
   }
 
   .game-icon {
-    width: 200px;
+    width: 100%;
+  }
+
+  .heading2 h1 {
+    padding-right: 10px;
   }
 
   .promosi {
@@ -91,11 +95,16 @@
   }
 
   footer {
-    height: 350px;
+    height: 510px;
+  }
+
+  .heading3 h2 {
+    text-align: center;
   }
 
   .card {
     width: 50%;
+    margin-left: 120px;
   }
 
   .card h3 {
@@ -103,7 +112,7 @@
   }
 
   .card span {
-    padding-left: 50px;
+    padding-left: 30px;
   }
 
   .card p {
@@ -111,10 +120,22 @@
   }
 
   .card .tlp {
-    padding-left: 160px;
+    padding-left: 120px;
   }
 
   .kebijakan ul {
-    padding-bottom: 50px;
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 50px;
+    float: left;
+    font-size: 12px;
+  }
+
+  .kebijakan p {
+    text-align: center;
+    padding-left: 60px;
+
+    float: left;
+    font-size: 15px;
   }
 }
