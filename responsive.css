@@ -109,7 +109,9 @@
   }
 
   .card {
-    margin: 20px;
+    margin: 5px;
+    margin-left: 23px;
+    margin-top: 15px;
   }
 
   .card h3 {
