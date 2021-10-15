@@ -110,9 +110,14 @@
   .card h3 {
     text-align: center;
   }
+  
+  .card 
 
   .card span {
-    padding-right: 10px;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 50px;
   }
 
   .card p {
