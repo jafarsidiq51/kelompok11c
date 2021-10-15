@@ -41,10 +41,10 @@
 
   @keyframes animasi1 {
     from {
-      right: 0px;
+      top: 0px;
     }
     to {
-      right: 100px;
+      bottom: 100px;
     }
   }
 
