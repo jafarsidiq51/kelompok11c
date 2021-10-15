@@ -23,7 +23,7 @@
 }
 
 /* Untuk Smartphone */
-@media all and (max-width: 576px) {
+@media all and (max-width: 670px) {
   .navbar ul {
     display: none;
   }
@@ -82,7 +82,11 @@
   }
 
   .game-icon {
-    width: 100%;
+    width: 80%;
+  }
+
+  .game-icon h4 {
+    padding-right: 18px;
   }
 
   .heading2 h1 {
@@ -103,21 +107,17 @@
   }
 
   .card {
-    width: 50%;
-    float: left;
+    margin: 20px;
   }
 
   .card h3 {
     text-align: center;
   }
-  
-  .card 
 
   .card span {
-    font-size: 25px;
-    padding-left: 20px;
+    font-size: 20px;
     padding-top: 10px;
-    width: 50px;
+    width: 40px;
   }
 
   .card p {
@@ -126,11 +126,12 @@
 
   .card .tlp {
     padding-left: 100px;
+    font-size: 24px;
   }
 
   .kebijakan ul {
     text-align: center;
-    padding-left: 150px;
+    padding-left: 120px;
     padding-top: 50px;
     float: left;
     font-size: 12px;
