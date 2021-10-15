@@ -1,183 +1,32 @@
-/* Untuk Tablet */
-@media only screen and (max-width: 1000px) {
-  .content2 h1 {
-    font-size: 32px;
-  }
-
-  .games {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    margin: 0;
-    padding: 0;
-  }
-
-  .heading {
-    height: 63rem;
-  }
-
-  .promosi {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3, auto);
-  }
-}
-
-/* Untuk Smartphone */
-@media only screen and (max-width: 600px) {
-  .navbar ul {
-    display: none;
-  }
-
-  .logo h1 {
-    font-size: 25px;
-  }
-
-  .animasi1 {
+.animasi1 {
     position: relative;
     animation-name: animasi1;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-delay: 2s;
   }
 
   @keyframes animasi1 {
     from {
-      top: 0px;
+      bottom: 100px;
     }
     to {
-      bottom: 100px;
+      bottom: 0px;
     }
   }
 
   .animasi2 {
     position: relative;
     animation-name: animasi2;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-delay: 2s;
   }
 
   @keyframes animasi2 {
     from {
-      left: 0px;
+      bottom: 100px;
+      padding-top: 20px;
     }
     to {
-      left: 200px;
+      bottom: 0px;
     }
   }
-
-  .logo span {
-    display: inline-block;
-    cursor: pointer;
-    color: black;
-    font-size: 25px;
-    float: right;
-    padding: 30px;
-  }
-
-  .content2 {
-    height: 60rem;
-  }
-
-  .content2 h1 {
-    font-size: 25px;
-    text-align: center;
-  }
-
-  .content2 p {
-    text-align: center;
-    font-size: 14px;
-    line-height: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .btn-wrapper a {
-    width: 70%;
-    margin: 10px;
-  }
-
-  .btn-wrapper p {
-    text-align: center;
-  }
-
-  .heading h2,
-  h3 {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .heading {
-    height: 165rem;
-    padding-left: 65px;
-  }
-
-  .games {
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-  }
-
-  .game-icon {
-    width: 100%;
-  }
-
-  .game-icon h4 {
-    padding-right: 18px;
-  }
-
-  .heading2 h1 {
-    padding-right: 10px;
-  }
-
-  .promosi {
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-  }
-
-  footer {
-    height: 530px;
-  }
-
-  .heading3 h2 {
-    text-align: center;
-  }
-
-  .card {
-    margin-left: 25px;
-    margin-top: 15px;
-    width: 200px;
-  }
-
-  .card h3 {
-    text-align: center;
-  }
-
-  .card span {
-    font-size: 20px;
-    padding-top: 10px;
-    width: 40px;
-  }
-
-  .card p {
-    text-align: center;
-  }
-
-  .card .tlp {
-    padding-left: 100px;
-    font-size: 24px;
-  }
-
-  .kebijakan ul {
-    text-align: center;
-    padding-left: 120px;
-    padding-top: 50px;
-    float: left;
-    font-size: 12px;
-  }
-
-  .kebijakan p {
-    text-align: center;
-    padding-left: 60px;
-
-    float: left;
-    font-size: 15px;
-  }
-}
