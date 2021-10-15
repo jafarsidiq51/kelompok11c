@@ -1,7 +1,24 @@
 * {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: sans-serif;
 }
@@ -10,12 +27,16 @@ li {
   list-style: none;
 }
 
-.container {
+.clear {
+  clear: left;
+}
+container {
   width: 1170px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
-.logo {
+header {
   background-color: #eae8f7;
   width: 100%;
   height: 90px;
@@ -30,6 +51,11 @@ li {
   padding: 30px;
   cursor: pointer;
   font-size: 30px;
+  padding-left: 70px;
+}
+
+.logo span {
+  display: none;
 }
 
 .navbar {
@@ -52,19 +78,21 @@ li {
 /* Content */
 .content2 {
   padding: 180px 0 100px 0;
-  height: 500px;
+  height: 700px;
   background-image: url("img/game.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
   text-align: center;
   opacity: 0.7;
+  width: 100%;
 }
 
 .content2 h1 {
   margin-bottom: 10px;
   letter-spacing: 3px;
   font-size: 30px;
+  padding: 30px;
 }
 
 .content2 p {
@@ -72,8 +100,8 @@ li {
 }
 
 .btn-wrapper {
-  margin: 20px 0;
   text-align: center;
+  padding-top: 30px;
 }
 
 .btn-wrapper a {
@@ -118,9 +146,11 @@ li {
 }
 
 .heading {
+  padding: 110px;
   padding-top: 80px;
   padding-bottom: 50px;
-  height: 550px;
+  height: 700px;
+  width: 100%;
 }
 
 .heading h2 {
@@ -138,7 +168,7 @@ li {
   margin: 5px;
   height: 260px;
   margin-top: 50px;
-  margin-right: 35px;
+  margin-left: 15px;
 }
 
 .game-icon img {
@@ -179,7 +209,7 @@ li {
 
 .btn-cuan {
   width: 70px;
-  height: 30px;
+  height: 35px;
   color: white;
   display: inline-block;
   border-radius: 3px;
@@ -196,4 +226,122 @@ li {
   float: right;
   margin-top: 30px;
   margin-right: 10px;
+}
+.heading2 h1 {
+  font-size: 20px;
+  margin-top: 20px;
+  padding-left: 40px;
+  font-weight: normal;
+  color: black;
+}
+
+.heading2 p {
+  font-size: 15px;
+  margin-top: 10px;
+  padding-left: 40px;
+  color: grey;
+}
+
+.promosi {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  padding: 30px;
+  font-weight: normal;
+}
+
+.iklan h1 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 30px;
+  font-weight: normal;
+  color: black;
+}
+
+.iklan p {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 30px;
+  color: grey;
+}
+
+footer {
+  background-color: #eae8f7;
+  width: 100%;
+  height: 250px;
+  color: black;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  margin-left: 40px;
+  margin-top: 40px;
+  height: 100px;
+  float: left;
+}
+
+.heading3 h2 {
+  font-weight: normal;
+  font-size: 25px;
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+.card h3 {
+  font-weight: normal;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.card span {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.card .wa {
+  color: #49f53d;
+}
+
+.card .fb {
+  color: #0c49f0;
+}
+
+.card .ig {
+  color: #ff8c00;
+}
+
+.card .twt {
+  color: aqua;
+}
+
+.card .tlp {
+  color: pink;
+  padding-left: 80px;
+  font-size: 30px;
+}
+
+.card p {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.kebijakan ul {
+  float: right;
+  line-height: 24px;
+  padding-right: 10px;
+  font-size: 16px;
+  color: blue;
+}
+
+.kebijakan p {
+  float: right;
+  padding-right: 50px;
+  padding-top: 10px;
+  font-size: 16px;
+  color: grey;
 }
