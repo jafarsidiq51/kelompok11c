@@ -32,12 +32,6 @@
     font-size: 25px;
   }
 
-  .animasi1 {
-    position: relative;
-    animation-name: animasi1;
-    animation-duration: 5s;
-    animation-delay: 2s;
-  }
 
   @keyframes animasi1 {
     from {
@@ -48,9 +42,9 @@
     }
   }
 
-  .animasi2 {
+  .animasi1 {
     position: relative;
-    animation-name: animasi2;
+    animation-name: animasi1;
     animation-duration: 5s;
     animation-delay: 2s;
   }
@@ -62,6 +56,13 @@
     to {
       bottom: 0;
     }
+  }
+
+  .animasi2 {
+    position: relative;
+    animation-name: animasi2;
+    animation-duration: 5s;
+    animation-delay: 2s;
   }
 
   .logo span {
