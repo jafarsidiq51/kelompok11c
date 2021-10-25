@@ -26,12 +26,13 @@
 @media only screen and (max-width: 600px) {
   .navbar ul {
     display: none;
+    width: 100%;
   }
 
   .logo h1 {
     font-size: 25px;
+    padding-left: 20px;
   }
-
 
   @keyframes animasi1 {
     from {
@@ -134,7 +135,7 @@
   }
 
   footer {
-    height: 530px;
+    height: 400px;
   }
 
   .heading3 h2 {
@@ -142,43 +143,46 @@
   }
 
   .card {
-    margin-left: 25px;
+    margin-left: 20px;
     margin-top: 15px;
-    width: 200px;
+    width: 150px;
   }
 
   .card h3 {
     text-align: center;
+    font-size: 15px;
+    padding-right: 10px;
   }
 
   .card span {
-    font-size: 20px;
-    padding-top: 10px;
-    width: 40px;
-  }
-
-  .card p {
+    font-size: 18px;
+    padding-top: 17px;
+    width: 25px;
     text-align: center;
   }
 
   .card .tlp {
-    padding-left: 100px;
-    font-size: 24px;
+    font-size: 20px;
+    padding: 0 70px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+  }
+
+  .card p {
+    text-align: center;
+    font-size: 15px;
   }
 
   .kebijakan ul {
     text-align: center;
-    padding-left: 120px;
     padding-top: 50px;
-    float: left;
+    width: 100%;
     font-size: 12px;
   }
 
   .kebijakan p {
-    text-align: center;
-    padding-left: 60px;
-
-    float: left;
     font-size: 15px;
+    width: 100%;
+    padding-left: 60px;
   }
 }
